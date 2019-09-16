@@ -24,11 +24,16 @@ The validation data is needed to compare the performance for each optimizers.
 The testing data is used for computing outputs you want to know.
 
 I assume your folder tree has become following structure.
+
 dataset
-|_ train
-| |_ train
-| |_ valid
-|_ test
+
+|___ train
+
+|   |___ train
+
+|   |___ valid
+
+|___ test
 
 Each folder has graph data and label data (but test data doesn't have label data).
 You can refer an example of input format of graph data in `random_graph.txt`.
